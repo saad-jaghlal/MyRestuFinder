@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyRestuFinder</string>
+
+    <!-- Ajouter le nom de TextView (Nom de l'activity) -->
+    <string name="text_name">Resurant Finder</string>
+
+
+</resources>
