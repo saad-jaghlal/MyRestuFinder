@@ -19,6 +19,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.Myholder> {
     public MyAdapter(List<Magasin> magasinList) {
         this.magasinList = magasinList;
     }
+    public void filterData(List<Magasin> filteredList) {
+        magasinList = filteredList;
+        notifyDataSetChanged();
+    }
 
     @NonNull
     @Override
